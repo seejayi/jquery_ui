@@ -1,0 +1,118 @@
+﻿body
+{
+    padding: 0 2%;
+    margin: 0;
+    
+    min-width: 250px;
+    background-color: #036564;
+    
+    font-size: 1.2em;
+    font-family: Calibri, “Trebuchet MS”, “Lucida Sans Unicode”, “Lucida Grande”,” Lucida Sans”, Arial, sans-serif;
+    line-height: 1.3em;
+}
+
+#container
+{
+    padding: 35px;
+    margin: 40px auto;
+    max-width: 800px;
+    background-color: #f7f7f7;
+    border: 2px solid #fff;
+    box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.7 );
+}
+
+#container h1
+{
+    font-size: 1.3em;
+    font-family: Cambria, Georgia, Times, “Times New Roman”, serif;
+    padding-bottom: 0.2em;
+    border-bottom: 1px dotted #000;
+}
+
+#container h2
+{
+    font-size: 1.1em;
+    font-family: Cambria, Georgia, Times, “Times New Roman”, serif;
+}
+
+img
+{
+    float:right;
+    vertical-align: top;
+    border: 5px solid #fff;
+    margin: 0 0 10px 10px;
+}
+
+.qs-tagged
+{
+    color: #542437;
+    cursor:default;
+    border-bottom: 1px dashed #888;
+    display: inline-block;
+}
+
+.qs-tagged:hover
+{
+    color: #f7f7f7;
+    background-color: #033649;
+    border-bottom: 0;
+    margin: -1px -4px 0;
+    padding: 1px 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #999;
+}
+
+.qs-infobox
+{
+    width: 270px;
+    padding: 12px 12px 10px;
+    position: absolute;
+    display: none;
+    border: 2px solid #031634;
+    background-color: #033649;
+    box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.7 );
+    
+    color: #E8DDCB;
+    font-size: 8pt;
+    line-height: 1.2em;
+}
+
+.qs-infobox h1
+{
+    color: #f7f7f7;
+    margin: 0 0 10px;
+    font-family: Cambria, Georgia, Times, “Times New Roman”, serif;
+    font-size: 1.75em;
+    font-weight: normal;
+}
+
+.qs-infobox a
+{
+    text-decoration: none;
+    color: #8FDBDB;
+    font-size: 1.3em;
+}
+
+.qs-infobox a:hover
+{
+    color: #D7FAFA;
+}
+
+.qs-infobox ul
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+.qs-infobox li
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.qs-infobox p
+{
+    font-size: 1.2em;
+}
